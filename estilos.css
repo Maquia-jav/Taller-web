@@ -10,6 +10,10 @@ body {
     border-radius: 12px;
 }
 
+.ficha p{
+    color:rgba(230, 211, 211, 0.692)
+}
+
 .nombre {
     color: rgb(255, 255, 227);
     font-size: large;
@@ -24,10 +28,13 @@ body {
     list-style: none;
     padding: 16px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
+    color: #888686;
 }
+
 
 .vida {
     color: rgb(255, 217, 0);
@@ -85,4 +92,8 @@ h3 p {
 
 .borde-redondeado {
   border-radius: 12px;
+}
+
+.ficha h3 {
+    color: rgb(230, 230, 230);
 }
